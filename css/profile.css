@@ -1,0 +1,77 @@
+/* 기존 헤더의 색을 지운다 */
+.top_header_transparent{
+  background-color: transparent;
+}
+
+.profile
+.profile_header{
+  height: 80vh;
+  background: url("file:///C:/Users/%EC%86%A1%EC%9D%B4%EC%A4%80/Desktop/%EB%85%B8%EB%A7%88%EB%93%9C%20%EC%BD%94%EB%8D%94_%20%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%ED%81%B4%EB%A1%A0/kakao-clone/images/profile_background.jpg");
+  background-position: center center;
+  background-size: 150%;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  /* 헤더 위치까지 메인으로 덮는다
+  메인 범위 자체가 움직일수 있도록 position을 relative로 준다*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile_header
+.profile_header_container{
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+  /* position을 relative로 지정하지 않으면 div를 이동시킬수 없다 */
+}
+
+.profile_header_container img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile
+.profile_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile_container input{
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile_actions{
+  display: flex;
+}
+
+.profile_actions
+.profile_action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: not-allowed;
+}
+
+.profile_action
+.profile_action_circle{
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+
+.profile_action_title{
+  font-size: 12px;
+  font-weight: 600;
+}

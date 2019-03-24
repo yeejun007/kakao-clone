@@ -1,0 +1,49 @@
+.top_header{
+  background-color: #523737;
+  color: white;
+  padding: 5px 10px 15px 10px;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 2;
+  /* profile.css에서 헤더의 흰색 아이콘들이 배경색을 뚫고 보이게함 */
+}
+
+.top_header .header_top,
+.top_header .header_bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.top_header .header_top{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.top_header .header_bottom{
+  margin: 0px 10px;
+}
+.top_header .header_column{
+  width: 33%;
+}
+/* 화면 가로로 칼럼이 세개씩 위치하니까
+100% 폭 안에 균등하게 위치하도록 하기 위해
+각 칼럼의 폭이 33%라고 지정함 */
+
+.top_header
+.header_bottom
+.header_column:first-child{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.top_header .header_column:last-child{
+  text-align: right;
+}
+.top_header .header_column:nth-child(2){
+  text-align: center;
+}
+.top_header .header_number{
+  color: yellow;
+}
+
+.top_header a{
+  color: white;
+}
