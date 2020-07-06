@@ -7,7 +7,6 @@
 - Html, css
 <br/>
 <br/>
-<br/>
 
 ## `Project Info`
 1. index.html 실행
@@ -25,5 +24,5 @@
 <img width="1042" alt="스크린샷 2020-07-06 오후 12 53 54" src="https://user-images.githubusercontent.com/46306443/86554153-c6802b00-bf87-11ea-9a44-f6485d33f968.png">
 <br/>
 <br/>
-<br/>
+
 
