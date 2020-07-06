@@ -8,7 +8,7 @@
 <br/>
 <br/>
 
-## `Project Info`
+## `Project Details`
 - index.html 실행
 - 화면크기를 실제 카카오톡 웹앱 화면처럼 작은 크기로 만들지 않으면, 다음과 같이 화면 크기를 줄여달라는 문구가 나온다
 <img width="602" alt="스크린샷 2020-07-06 오후 12 45 31" src="https://user-images.githubusercontent.com/46306443/86553763-9a17df00-bf86-11ea-85d6-cfa3d15bd5c1.png">
