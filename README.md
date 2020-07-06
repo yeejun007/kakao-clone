@@ -3,7 +3,7 @@
 <br/>
 <br/>
 
-##`Technical Skills`
+## `Technical Skills`
 - Html, css
 <br/>
 <br/>
